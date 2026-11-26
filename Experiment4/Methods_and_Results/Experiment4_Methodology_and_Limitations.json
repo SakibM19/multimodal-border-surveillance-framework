@@ -1,0 +1,44 @@
+{
+  "experiment": "Cross-Dataset, Threshold-Aware Surveillance Alert Evaluation",
+  "dataset": "Anti-UAV300",
+  "task": "Single-class drone detection",
+  "modalities": [
+    "Visible",
+    "Infrared"
+  ],
+  "test_split": "Original held-out test split",
+  "confidence_thresholds": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "iou_threshold": 0.5,
+  "matching": "Class-aware one-to-one IoU matching",
+  "prediction_box_format": "COCO pixel xywh",
+  "ground_truth_box_format": "Normalized YOLO xywh",
+  "class_mapping": "COCO category_id 1 mapped to YOLO class 0; single drone class",
+  "all_test_images_included": true,
+  "images_without_predictions_included": true,
+  "review_time_assumption_seconds_per_alerted_image": 10,
+  "image_alert_definition": "At least one prediction with confidence greater than or equal to the threshold",
+  "positive_image_alert_definition": "A positive test image with at least one prediction above the confidence threshold; this does not guarantee correct localization",
+  "negative_image_false_alert_definition": "An empty-ground-truth test image with at least one prediction above the confidence threshold",
+  "limitations": [
+    "Threshold sweep is exploratory and uses the held-out test split; thresholds are not independently calibrated deployment settings.",
+    "Estimated review time assumes 10 seconds per alerted image and is not measured operator performance.",
+    "Video frames may be temporally adjacent and may represent repeated observations of the same drone.",
+    "Image-level alert presence does not establish correct bounding-box localization.",
+    "The experiment evaluates drone detection only, not armed-person detection.",
+    "The analysis does not establish real-world field deployment performance."
+  ],
+  "model_training_or_modification": false,
+  "source_prediction_archive": "Experiment2/Evaluation/Experiment2_Test_Evaluation_Evidence.zip",
+  "source_dataset_backup": "Experiment2/experiment2_part_01.tar.part through experiment2_part_05.tar.part",
+  "source_dataset_combined_sha256": "c644f40169369fb843373ae2e7ac54a0d44bffe6128b6198fa3d398bbca73ec1"
+}

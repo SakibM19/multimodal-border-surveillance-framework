@@ -1,0 +1,19 @@
+{
+  "Visible": {
+    "metric_arithmetic": "PASS",
+    "ground_truth_and_image_count_consistency": "PASS",
+    "review_time_arithmetic": "PASS",
+    "alert_count_monotonicity": "PASS",
+    "detection_count_monotonicity": "PASS",
+    "overall": "PASS"
+  },
+  "Infrared": {
+    "metric_arithmetic": "PASS",
+    "ground_truth_and_image_count_consistency": "PASS",
+    "review_time_arithmetic": "PASS",
+    "alert_count_monotonicity": "PASS",
+    "detection_count_monotonicity": "PASS",
+    "overall": "PASS"
+  },
+  "overall": "PASS"
+}

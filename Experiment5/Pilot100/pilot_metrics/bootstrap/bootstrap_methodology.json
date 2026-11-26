@@ -1,0 +1,35 @@
+{
+  "experiment": "Experiment 5 \u2014 100-image RGB-Thermal degradation pilot",
+  "analysis": "Paired image-level bootstrap",
+  "images": 100,
+  "modalities": [
+    "RGB",
+    "Thermal",
+    "Blend",
+    "VT"
+  ],
+  "conditions": 10,
+  "bootstrap_resamples": 2000,
+  "random_seed": 20261125,
+  "iou_threshold": 0.5,
+  "confidence_thresholds": {
+    "source": "Validation-selected thresholds from pilot metrics JSON",
+    "frozen": true
+  },
+  "sampling_unit": "Image ID",
+  "paired_sampling": true,
+  "interval": "Percentile 95% CI (2.5th and 97.5th percentiles)",
+  "metrics": [
+    "Precision",
+    "Recall",
+    "F1"
+  ],
+  "comparisons": "Each degraded condition minus its modality's clean condition",
+  "multiple_comparison_correction": "Not applied; comparisons are exploratory",
+  "scope_limitations": [
+    "100-image pilot only",
+    "Degradation applied jointly to RGB and thermal source modalities",
+    "Not a single-sensor failure evaluation",
+    "Not a full-test-set evaluation"
+  ]
+}

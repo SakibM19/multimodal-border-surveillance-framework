@@ -1,0 +1,26 @@
+{
+  "Visible": {
+    "test_images": 8539,
+    "positive_images": 7986,
+    "negative_images": 553,
+    "ground_truth_boxes": 7986,
+    "images_with_exactly_one_box": 7986,
+    "images_with_multiple_boxes": 0,
+    "malformed_annotations": 0,
+    "invalid_classes": 0,
+    "invalid_coordinates": 0,
+    "audit_status": "PASS"
+  },
+  "Infrared": {
+    "test_images": 8541,
+    "positive_images": 8429,
+    "negative_images": 112,
+    "ground_truth_boxes": 8429,
+    "images_with_exactly_one_box": 8429,
+    "images_with_multiple_boxes": 0,
+    "malformed_annotations": 0,
+    "invalid_classes": 0,
+    "invalid_coordinates": 0,
+    "audit_status": "PASS"
+  }
+}

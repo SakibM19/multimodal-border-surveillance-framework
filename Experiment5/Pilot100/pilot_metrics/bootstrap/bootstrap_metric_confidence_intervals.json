@@ -1,0 +1,1202 @@
+[
+  {
+    "modality": "RGB",
+    "condition": "blur_3",
+    "metric": "precision",
+    "point_estimate": 0.8235294117647058,
+    "CI95_lower": 0.7813620071684588,
+    "CI95_upper": 0.8655236056468409,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "blur_3",
+    "metric": "recall",
+    "point_estimate": 0.8316831683168316,
+    "CI95_lower": 0.7904902234636871,
+    "CI95_upper": 0.8763260520398329,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "blur_3",
+    "metric": "F1",
+    "point_estimate": 0.8275862068965516,
+    "CI95_lower": 0.7941139521135087,
+    "CI95_upper": 0.8605062265870204,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "blur_5",
+    "metric": "precision",
+    "point_estimate": 0.8327759197324415,
+    "CI95_lower": 0.7938398576512455,
+    "CI95_upper": 0.8712974033252381,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "blur_5",
+    "metric": "recall",
+    "point_estimate": 0.8217821782178217,
+    "CI95_lower": 0.7784022398421514,
+    "CI95_upper": 0.8671604957575,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "blur_5",
+    "metric": "F1",
+    "point_estimate": 0.8272425249169434,
+    "CI95_lower": 0.7942750639813063,
+    "CI95_upper": 0.8599057971014493,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "blur_7",
+    "metric": "precision",
+    "point_estimate": 0.835016835016835,
+    "CI95_lower": 0.7944600485492419,
+    "CI95_upper": 0.8731369560647466,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "blur_7",
+    "metric": "recall",
+    "point_estimate": 0.8184818481848185,
+    "CI95_lower": 0.7751333926189418,
+    "CI95_upper": 0.8644763599389934,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "blur_7",
+    "metric": "F1",
+    "point_estimate": 0.8266666666666668,
+    "CI95_lower": 0.7927553997020855,
+    "CI95_upper": 0.8586498546653748,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "brightness_0.25",
+    "metric": "precision",
+    "point_estimate": 0.6470588235294118,
+    "CI95_lower": 0.6097476521856631,
+    "CI95_upper": 0.6825396825396826,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "brightness_0.25",
+    "metric": "recall",
+    "point_estimate": 0.7986798679867987,
+    "CI95_lower": 0.7529720104333868,
+    "CI95_upper": 0.8449020821199766,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "brightness_0.25",
+    "metric": "F1",
+    "point_estimate": 0.7149187592319054,
+    "CI95_lower": 0.6803493780968752,
+    "CI95_upper": 0.7479241086347872,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "brightness_0.5",
+    "metric": "precision",
+    "point_estimate": 0.8710801393728222,
+    "CI95_lower": 0.835955948625507,
+    "CI95_upper": 0.9047705943691344,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "brightness_0.5",
+    "metric": "recall",
+    "point_estimate": 0.8250825082508251,
+    "CI95_lower": 0.7791770596434598,
+    "CI95_upper": 0.8698452380952381,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "brightness_0.5",
+    "metric": "F1",
+    "point_estimate": 0.847457627118644,
+    "CI95_lower": 0.8130558707561559,
+    "CI95_upper": 0.8792807683716775,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "brightness_0.75",
+    "metric": "precision",
+    "point_estimate": 0.8780487804878049,
+    "CI95_lower": 0.8394066843315668,
+    "CI95_upper": 0.9158619284073223,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "brightness_0.75",
+    "metric": "recall",
+    "point_estimate": 0.8316831683168316,
+    "CI95_lower": 0.7904902234636871,
+    "CI95_upper": 0.8763260520398329,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "brightness_0.75",
+    "metric": "F1",
+    "point_estimate": 0.8542372881355932,
+    "CI95_lower": 0.8214846072053518,
+    "CI95_upper": 0.8868392404937254,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "clean",
+    "metric": "precision",
+    "point_estimate": 0.8311258278145696,
+    "CI95_lower": 0.7889855269930663,
+    "CI95_upper": 0.8731571437732462,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "clean",
+    "metric": "recall",
+    "point_estimate": 0.8283828382838284,
+    "CI95_lower": 0.7852552816901408,
+    "CI95_upper": 0.8727944739236796,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "clean",
+    "metric": "F1",
+    "point_estimate": 0.8297520661157025,
+    "CI95_lower": 0.7954892984495204,
+    "CI95_upper": 0.8642404905321308,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "noise_15",
+    "metric": "precision",
+    "point_estimate": 0.9213483146067416,
+    "CI95_lower": 0.8853046594982079,
+    "CI95_upper": 0.9527567503632861,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "noise_15",
+    "metric": "recall",
+    "point_estimate": 0.8118811881188119,
+    "CI95_lower": 0.7650602409638554,
+    "CI95_upper": 0.8581560283687943,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "noise_15",
+    "metric": "F1",
+    "point_estimate": 0.8631578947368421,
+    "CI95_lower": 0.8297144143493171,
+    "CI95_upper": 0.8951066404477385,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "noise_25",
+    "metric": "precision",
+    "point_estimate": 0.9310344827586207,
+    "CI95_lower": 0.8971178286129267,
+    "CI95_upper": 0.9601857242664182,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "noise_25",
+    "metric": "recall",
+    "point_estimate": 0.7128712871287128,
+    "CI95_lower": 0.6590890461997019,
+    "CI95_upper": 0.772001677687841,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "noise_25",
+    "metric": "F1",
+    "point_estimate": 0.8074766355140186,
+    "CI95_lower": 0.7681409516480697,
+    "CI95_upper": 0.8464625229773107,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "noise_5",
+    "metric": "precision",
+    "point_estimate": 0.8838028169014085,
+    "CI95_lower": 0.8480551236749116,
+    "CI95_upper": 0.9208638785174392,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "noise_5",
+    "metric": "recall",
+    "point_estimate": 0.8283828382838284,
+    "CI95_lower": 0.7829104131208418,
+    "CI95_upper": 0.8741502230031085,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "RGB",
+    "condition": "noise_5",
+    "metric": "F1",
+    "point_estimate": 0.8551959114139692,
+    "CI95_lower": 0.8200637975778546,
+    "CI95_upper": 0.8889154704944178,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "blur_3",
+    "metric": "precision",
+    "point_estimate": 0.978494623655914,
+    "CI95_lower": 0.9594058357250239,
+    "CI95_upper": 0.9959677419354839,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "blur_3",
+    "metric": "recall",
+    "point_estimate": 0.900990099009901,
+    "CI95_lower": 0.8609328171828171,
+    "CI95_upper": 0.9368149553773817,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "blur_3",
+    "metric": "F1",
+    "point_estimate": 0.9381443298969072,
+    "CI95_lower": 0.9127500193492033,
+    "CI95_upper": 0.9601549160529999,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "blur_5",
+    "metric": "precision",
+    "point_estimate": 0.9820143884892086,
+    "CI95_lower": 0.9636297036297036,
+    "CI95_upper": 0.9964028776978417,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "blur_5",
+    "metric": "recall",
+    "point_estimate": 0.900990099009901,
+    "CI95_lower": 0.8609328171828171,
+    "CI95_upper": 0.9368149553773817,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "blur_5",
+    "metric": "F1",
+    "point_estimate": 0.9397590361445782,
+    "CI95_lower": 0.9143967099714374,
+    "CI95_upper": 0.962298793684366,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "blur_7",
+    "metric": "precision",
+    "point_estimate": 0.9820143884892086,
+    "CI95_lower": 0.9636297036297036,
+    "CI95_upper": 0.9964028776978417,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "blur_7",
+    "metric": "recall",
+    "point_estimate": 0.900990099009901,
+    "CI95_lower": 0.8609328171828171,
+    "CI95_upper": 0.9368149553773817,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "blur_7",
+    "metric": "F1",
+    "point_estimate": 0.9397590361445782,
+    "CI95_lower": 0.9143967099714374,
+    "CI95_upper": 0.962298793684366,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "brightness_0.25",
+    "metric": "precision",
+    "point_estimate": 0.9813432835820896,
+    "CI95_lower": 0.9640244430961256,
+    "CI95_upper": 0.9962966379663797,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "brightness_0.25",
+    "metric": "recall",
+    "point_estimate": 0.8679867986798679,
+    "CI95_lower": 0.8227331235697941,
+    "CI95_upper": 0.9081662842651853,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "brightness_0.25",
+    "metric": "F1",
+    "point_estimate": 0.9211908931698773,
+    "CI95_lower": 0.8933801111908178,
+    "CI95_upper": 0.9460470028429947,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "brightness_0.5",
+    "metric": "precision",
+    "point_estimate": 0.9821428571428571,
+    "CI95_lower": 0.9657788166050315,
+    "CI95_upper": 0.9964788732394366,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "brightness_0.5",
+    "metric": "recall",
+    "point_estimate": 0.9075907590759076,
+    "CI95_lower": 0.8717198768605187,
+    "CI95_upper": 0.9418192389006342,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "brightness_0.5",
+    "metric": "F1",
+    "point_estimate": 0.9433962264150944,
+    "CI95_lower": 0.9216,
+    "CI95_upper": 0.964574752208654,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "brightness_0.75",
+    "metric": "precision",
+    "point_estimate": 0.9855595667870036,
+    "CI95_lower": 0.9692819637700184,
+    "CI95_upper": 1.0,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "brightness_0.75",
+    "metric": "recall",
+    "point_estimate": 0.900990099009901,
+    "CI95_lower": 0.8609328171828171,
+    "CI95_upper": 0.9368149553773817,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "brightness_0.75",
+    "metric": "F1",
+    "point_estimate": 0.9413793103448275,
+    "CI95_lower": 0.9169402875371182,
+    "CI95_upper": 0.9639806508138258,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "clean",
+    "metric": "precision",
+    "point_estimate": 0.9820143884892086,
+    "CI95_lower": 0.9636297036297036,
+    "CI95_upper": 0.9964028776978417,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "clean",
+    "metric": "recall",
+    "point_estimate": 0.900990099009901,
+    "CI95_lower": 0.8609328171828171,
+    "CI95_upper": 0.9368149553773817,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "clean",
+    "metric": "F1",
+    "point_estimate": 0.9397590361445782,
+    "CI95_lower": 0.9143967099714374,
+    "CI95_upper": 0.962298793684366,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "noise_15",
+    "metric": "precision",
+    "point_estimate": 0.9884615384615385,
+    "CI95_lower": 0.9761884446611409,
+    "CI95_upper": 1.0,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "noise_15",
+    "metric": "recall",
+    "point_estimate": 0.8481848184818482,
+    "CI95_lower": 0.8106845238095238,
+    "CI95_upper": 0.8830790378006873,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "noise_15",
+    "metric": "F1",
+    "point_estimate": 0.9129662522202486,
+    "CI95_lower": 0.8896459359605912,
+    "CI95_upper": 0.9345517005931805,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "noise_25",
+    "metric": "precision",
+    "point_estimate": 0.9947916666666666,
+    "CI95_lower": 0.983957219251337,
+    "CI95_upper": 1.0,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "noise_25",
+    "metric": "recall",
+    "point_estimate": 0.6303630363036303,
+    "CI95_lower": 0.5802391733426217,
+    "CI95_upper": 0.6790165592213374,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "noise_25",
+    "metric": "F1",
+    "point_estimate": 0.7717171717171717,
+    "CI95_lower": 0.7333294663573086,
+    "CI95_upper": 0.8082540030708488,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "noise_5",
+    "metric": "precision",
+    "point_estimate": 0.9781818181818182,
+    "CI95_lower": 0.957293910376475,
+    "CI95_upper": 0.996309963099631,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "noise_5",
+    "metric": "recall",
+    "point_estimate": 0.8877887788778878,
+    "CI95_lower": 0.8513782004029682,
+    "CI95_upper": 0.920692941652341,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Thermal",
+    "condition": "noise_5",
+    "metric": "F1",
+    "point_estimate": 0.930795847750865,
+    "CI95_lower": 0.9053322069404749,
+    "CI95_upper": 0.9535714285714285,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "blur_3",
+    "metric": "precision",
+    "point_estimate": 0.9608540925266904,
+    "CI95_lower": 0.93703216374269,
+    "CI95_upper": 0.9828824972232506,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "blur_3",
+    "metric": "recall",
+    "point_estimate": 0.8910891089108911,
+    "CI95_lower": 0.856655290102389,
+    "CI95_upper": 0.9240131199261283,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "blur_3",
+    "metric": "F1",
+    "point_estimate": 0.9246575342465754,
+    "CI95_lower": 0.8998356569956594,
+    "CI95_upper": 0.9478991596638655,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "blur_5",
+    "metric": "precision",
+    "point_estimate": 0.9640287769784173,
+    "CI95_lower": 0.9423049132947977,
+    "CI95_upper": 0.9845574695574696,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "blur_5",
+    "metric": "recall",
+    "point_estimate": 0.8844884488448845,
+    "CI95_lower": 0.8483748303580749,
+    "CI95_upper": 0.9198641114982579,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "blur_5",
+    "metric": "F1",
+    "point_estimate": 0.9225473321858865,
+    "CI95_lower": 0.8972486959489104,
+    "CI95_upper": 0.9460320315176431,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "blur_7",
+    "metric": "precision",
+    "point_estimate": 0.960431654676259,
+    "CI95_lower": 0.9390129443103304,
+    "CI95_upper": 0.980544747081712,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "blur_7",
+    "metric": "recall",
+    "point_estimate": 0.8811881188118812,
+    "CI95_lower": 0.8436432652381597,
+    "CI95_upper": 0.9174611032531824,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "blur_7",
+    "metric": "F1",
+    "point_estimate": 0.919104991394148,
+    "CI95_lower": 0.8936170212765958,
+    "CI95_upper": 0.9435232984070193,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "brightness_0.25",
+    "metric": "precision",
+    "point_estimate": 0.9877049180327869,
+    "CI95_lower": 0.973568281938326,
+    "CI95_upper": 1.0,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "brightness_0.25",
+    "metric": "recall",
+    "point_estimate": 0.7953795379537953,
+    "CI95_lower": 0.7542008873784575,
+    "CI95_upper": 0.837379694768441,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "brightness_0.25",
+    "metric": "F1",
+    "point_estimate": 0.8811700182815355,
+    "CI95_lower": 0.8533727127098076,
+    "CI95_upper": 0.9083669221748484,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "brightness_0.5",
+    "metric": "precision",
+    "point_estimate": 0.966789667896679,
+    "CI95_lower": 0.942173173617273,
+    "CI95_upper": 0.9887228605220918,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "brightness_0.5",
+    "metric": "recall",
+    "point_estimate": 0.8646864686468647,
+    "CI95_lower": 0.8238623602246005,
+    "CI95_upper": 0.9063575226775101,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "brightness_0.5",
+    "metric": "F1",
+    "point_estimate": 0.9128919860627178,
+    "CI95_lower": 0.883278738170347,
+    "CI95_upper": 0.9418201278843481,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "brightness_0.75",
+    "metric": "precision",
+    "point_estimate": 0.9640287769784173,
+    "CI95_lower": 0.9422353651316935,
+    "CI95_upper": 0.9845559845559846,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "brightness_0.75",
+    "metric": "recall",
+    "point_estimate": 0.8844884488448845,
+    "CI95_lower": 0.8493578767123288,
+    "CI95_upper": 0.9202465101804926,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "brightness_0.75",
+    "metric": "F1",
+    "point_estimate": 0.9225473321858865,
+    "CI95_lower": 0.8978205585988869,
+    "CI95_upper": 0.9471702934653338,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "clean",
+    "metric": "precision",
+    "point_estimate": 0.9608540925266904,
+    "CI95_lower": 0.9366654929577465,
+    "CI95_upper": 0.9829437145433584,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "clean",
+    "metric": "recall",
+    "point_estimate": 0.8910891089108911,
+    "CI95_lower": 0.8561854863934939,
+    "CI95_upper": 0.9254683511226356,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "clean",
+    "metric": "F1",
+    "point_estimate": 0.9246575342465754,
+    "CI95_lower": 0.899995894909688,
+    "CI95_upper": 0.9491525423728813,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "noise_15",
+    "metric": "precision",
+    "point_estimate": 0.9712230215827338,
+    "CI95_lower": 0.9493213749463749,
+    "CI95_upper": 0.9922178988326849,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "noise_15",
+    "metric": "recall",
+    "point_estimate": 0.8910891089108911,
+    "CI95_lower": 0.858574499318444,
+    "CI95_upper": 0.9236117424242425,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "noise_15",
+    "metric": "F1",
+    "point_estimate": 0.9294320137693631,
+    "CI95_lower": 0.9069318698386242,
+    "CI95_upper": 0.951310861423221,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "noise_25",
+    "metric": "precision",
+    "point_estimate": 0.9626865671641791,
+    "CI95_lower": 0.9389296309876995,
+    "CI95_upper": 0.9851851851851852,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "noise_25",
+    "metric": "recall",
+    "point_estimate": 0.8514851485148515,
+    "CI95_lower": 0.8108086793418025,
+    "CI95_upper": 0.8911796675191817,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "noise_25",
+    "metric": "F1",
+    "point_estimate": 0.903677758318739,
+    "CI95_lower": 0.8734696515602709,
+    "CI95_upper": 0.9320092199552695,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "noise_5",
+    "metric": "precision",
+    "point_estimate": 0.9574468085106383,
+    "CI95_lower": 0.9315034918076819,
+    "CI95_upper": 0.9818181818181818,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "noise_5",
+    "metric": "recall",
+    "point_estimate": 0.8910891089108911,
+    "CI95_lower": 0.8579794337606839,
+    "CI95_upper": 0.9245342165966759,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "Blend",
+    "condition": "noise_5",
+    "metric": "F1",
+    "point_estimate": 0.9230769230769231,
+    "CI95_lower": 0.8976109215017065,
+    "CI95_upper": 0.9465973783164927,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "blur_3",
+    "metric": "precision",
+    "point_estimate": 0.9888888888888889,
+    "CI95_lower": 0.9720272727272726,
+    "CI95_upper": 1.0,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "blur_3",
+    "metric": "recall",
+    "point_estimate": 0.8811881188118812,
+    "CI95_lower": 0.8461409395973154,
+    "CI95_upper": 0.9160845027455765,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "blur_3",
+    "metric": "F1",
+    "point_estimate": 0.9319371727748692,
+    "CI95_lower": 0.9097098323556645,
+    "CI95_upper": 0.9535725881261595,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "blur_5",
+    "metric": "precision",
+    "point_estimate": 0.9888888888888889,
+    "CI95_lower": 0.9720272727272726,
+    "CI95_upper": 1.0,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "blur_5",
+    "metric": "recall",
+    "point_estimate": 0.8811881188118812,
+    "CI95_lower": 0.8461409395973154,
+    "CI95_upper": 0.9160845027455765,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "blur_5",
+    "metric": "F1",
+    "point_estimate": 0.9319371727748692,
+    "CI95_lower": 0.9097098323556645,
+    "CI95_upper": 0.9535725881261595,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "blur_7",
+    "metric": "precision",
+    "point_estimate": 0.9888059701492538,
+    "CI95_lower": 0.9718738996478874,
+    "CI95_upper": 1.0,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "blur_7",
+    "metric": "recall",
+    "point_estimate": 0.8745874587458746,
+    "CI95_lower": 0.8402339040270075,
+    "CI95_upper": 0.9084249084249084,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "blur_7",
+    "metric": "F1",
+    "point_estimate": 0.9281961471103328,
+    "CI95_lower": 0.9067011634633926,
+    "CI95_upper": 0.949615593889807,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "brightness_0.25",
+    "metric": "precision",
+    "point_estimate": 0.9841897233201581,
+    "CI95_lower": 0.9658111533586818,
+    "CI95_upper": 1.0,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "brightness_0.25",
+    "metric": "recall",
+    "point_estimate": 0.8217821782178217,
+    "CI95_lower": 0.7794080759394059,
+    "CI95_upper": 0.8633370307167235,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "brightness_0.25",
+    "metric": "F1",
+    "point_estimate": 0.89568345323741,
+    "CI95_lower": 0.8655172413793104,
+    "CI95_upper": 0.923370356853847,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "brightness_0.5",
+    "metric": "precision",
+    "point_estimate": 0.9887218045112782,
+    "CI95_lower": 0.9715302491103203,
+    "CI95_upper": 1.0,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "brightness_0.5",
+    "metric": "recall",
+    "point_estimate": 0.8679867986798679,
+    "CI95_lower": 0.8308966676479805,
+    "CI95_upper": 0.9046091791979949,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "brightness_0.5",
+    "metric": "F1",
+    "point_estimate": 0.9244288224956063,
+    "CI95_lower": 0.8998315402738192,
+    "CI95_upper": 0.9477351916376306,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "brightness_0.75",
+    "metric": "precision",
+    "point_estimate": 0.9888059701492538,
+    "CI95_lower": 0.9715302491103203,
+    "CI95_upper": 1.0,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "brightness_0.75",
+    "metric": "recall",
+    "point_estimate": 0.8745874587458746,
+    "CI95_lower": 0.8368037840136054,
+    "CI95_upper": 0.9130557371690093,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "brightness_0.75",
+    "metric": "F1",
+    "point_estimate": 0.9281961471103328,
+    "CI95_lower": 0.9020783700825097,
+    "CI95_upper": 0.9527310804378866,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "clean",
+    "metric": "precision",
+    "point_estimate": 0.988929889298893,
+    "CI95_lower": 0.9722198025551684,
+    "CI95_upper": 1.0,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "clean",
+    "metric": "recall",
+    "point_estimate": 0.8844884488448845,
+    "CI95_lower": 0.8487634015594542,
+    "CI95_upper": 0.9194151486097795,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "clean",
+    "metric": "F1",
+    "point_estimate": 0.9337979094076656,
+    "CI95_lower": 0.9109580407505468,
+    "CI95_upper": 0.9555574516496018,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "noise_15",
+    "metric": "precision",
+    "point_estimate": 0.9772727272727273,
+    "CI95_lower": 0.9553238959839976,
+    "CI95_upper": 0.9962124785591767,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "noise_15",
+    "metric": "recall",
+    "point_estimate": 0.8514851485148515,
+    "CI95_lower": 0.813722589627567,
+    "CI95_upper": 0.8910272277227723,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "noise_15",
+    "metric": "F1",
+    "point_estimate": 0.91005291005291,
+    "CI95_lower": 0.8814633683793126,
+    "CI95_upper": 0.9372780920625842,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "noise_25",
+    "metric": "precision",
+    "point_estimate": 0.9761904761904762,
+    "CI95_lower": 0.9535861211573237,
+    "CI95_upper": 0.9959183673469387,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "noise_25",
+    "metric": "recall",
+    "point_estimate": 0.8118811881188119,
+    "CI95_lower": 0.7703180212014135,
+    "CI95_upper": 0.8552694116469881,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "noise_25",
+    "metric": "F1",
+    "point_estimate": 0.8864864864864865,
+    "CI95_lower": 0.8556328494432296,
+    "CI95_upper": 0.9171080709754743,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "noise_5",
+    "metric": "precision",
+    "point_estimate": 0.9887640449438202,
+    "CI95_lower": 0.9715302491103203,
+    "CI95_upper": 1.0,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "noise_5",
+    "metric": "recall",
+    "point_estimate": 0.8712871287128713,
+    "CI95_lower": 0.8368724794882492,
+    "CI95_upper": 0.9061606488269794,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  },
+  {
+    "modality": "VT",
+    "condition": "noise_5",
+    "metric": "F1",
+    "point_estimate": 0.9263157894736842,
+    "CI95_lower": 0.9027045162796126,
+    "CI95_upper": 0.9498069498069499,
+    "bootstrap_replicates": 2000,
+    "seed": 20261125
+  }
+]
