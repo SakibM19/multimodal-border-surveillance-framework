@@ -1,0 +1,199 @@
+{
+  "experiment": "Experiment3_Range_to_Pixel_and_Distance_Error",
+  "report_status": "CORRECTED_AFTER_INDEPENDENT_RAW_DATA_AUDIT",
+  "generated_utc": "2026-11-24T13:56:08.114556+00:00",
+  "python_version": "3.13.18",
+  "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+  "camera_geometry": {
+    "RGB": {
+      "fx_pixels": 5444.430546833001,
+      "horizontal_fov_deg": 20.0,
+      "image_width_px": 1920,
+      "image_height_px": 1080
+    },
+    "Thermal": {
+      "fx_pixels": 2020.400484696014,
+      "horizontal_fov_deg": 18.0,
+      "image_width_px": 640,
+      "image_height_px": 512
+    }
+  },
+  "target_width_m": 0.289,
+  "target_width_assumption": "Assumed target width of 0.289 m; not independently verified for the actual target.",
+  "overall_error_summary": [
+    {
+      "camera": "RGB",
+      "total_records": 42,
+      "valid_perturbed_estimates": 42,
+      "invalid_perturbed_estimates": 0,
+      "MAE_m": 49.54916822946155,
+      "RMSE_m": 89.19464219247612,
+      "mean_relative_error_percent": 22.20440990213596
+    },
+    {
+      "camera": "Thermal",
+      "total_records": 42,
+      "valid_perturbed_estimates": 38,
+      "invalid_perturbed_estimates": 4,
+      "MAE_m": 123.71986382540972,
+      "RMSE_m": 280.3667820021015,
+      "mean_relative_error_percent": 62.49695279041848
+    }
+  ],
+  "distance_level_error_summary": [
+    {
+      "camera": "RGB",
+      "true_distance_m": 50,
+      "total_records": 7,
+      "valid_cases": 7,
+      "invalid_cases": 0,
+      "MAE_m": 2.7404174214859003,
+      "RMSE_m": 3.2117269119998304,
+      "mean_relative_error_percent": 5.480834842971801
+    },
+    {
+      "camera": "RGB",
+      "true_distance_m": 100,
+      "total_records": 7,
+      "valid_cases": 7,
+      "invalid_cases": 0,
+      "MAE_m": 11.16765475353834,
+      "RMSE_m": 13.268761107339197,
+      "mean_relative_error_percent": 11.16765475353834
+    },
+    {
+      "camera": "RGB",
+      "true_distance_m": 150,
+      "total_records": 7,
+      "valid_cases": 7,
+      "invalid_cases": 0,
+      "MAE_m": 25.951670522283703,
+      "RMSE_m": 31.55224285812594,
+      "mean_relative_error_percent": 17.30111368152247
+    },
+    {
+      "camera": "RGB",
+      "true_distance_m": 200,
+      "total_records": 7,
+      "valid_cases": 7,
+      "invalid_cases": 0,
+      "MAE_m": 48.41128830112208,
+      "RMSE_m": 60.81949066955338,
+      "mean_relative_error_percent": 24.20564415056104
+    },
+    {
+      "camera": "RGB",
+      "true_distance_m": 250,
+      "total_records": 7,
+      "valid_cases": 7,
+      "invalid_cases": 0,
+      "MAE_m": 80.94828787163533,
+      "RMSE_m": 106.20785459396174,
+      "mean_relative_error_percent": 32.37931514865413
+    },
+    {
+      "camera": "RGB",
+      "true_distance_m": 300,
+      "total_records": 7,
+      "valid_cases": 7,
+      "invalid_cases": 0,
+      "MAE_m": 128.07569050670392,
+      "RMSE_m": 177.68811753138698,
+      "mean_relative_error_percent": 42.69189683556798
+    },
+    {
+      "camera": "Thermal",
+      "true_distance_m": 50,
+      "total_records": 7,
+      "valid_cases": 7,
+      "invalid_cases": 0,
+      "MAE_m": 7.682140335357142,
+      "RMSE_m": 9.265264389596071,
+      "mean_relative_error_percent": 15.364280670714283
+    },
+    {
+      "camera": "Thermal",
+      "true_distance_m": 100,
+      "total_records": 7,
+      "valid_cases": 7,
+      "invalid_cases": 0,
+      "MAE_m": 36.07314956523504,
+      "RMSE_m": 48.2917178775474,
+      "mean_relative_error_percent": 36.07314956523505
+    },
+    {
+      "camera": "Thermal",
+      "true_distance_m": 150,
+      "total_records": 7,
+      "valid_cases": 7,
+      "invalid_cases": 0,
+      "MAE_m": 123.04922659952553,
+      "RMSE_m": 203.4519720949533,
+      "mean_relative_error_percent": 82.03281773301701
+    },
+    {
+      "camera": "Thermal",
+      "true_distance_m": 200,
+      "total_records": 7,
+      "valid_cases": 6,
+      "invalid_cases": 1,
+      "MAE_m": 128.8201608230412,
+      "RMSE_m": 191.30944315792087,
+      "mean_relative_error_percent": 64.4100804115206
+    },
+    {
+      "camera": "Thermal",
+      "true_distance_m": 250,
+      "total_records": 7,
+      "valid_cases": 6,
+      "invalid_cases": 1,
+      "MAE_m": 334.6614320212888,
+      "RMSE_m": 618.283724613085,
+      "mean_relative_error_percent": 133.86457280851553
+    },
+    {
+      "camera": "Thermal",
+      "true_distance_m": 300,
+      "total_records": 7,
+      "valid_cases": 5,
+      "invalid_cases": 2,
+      "MAE_m": 150.56673055975307,
+      "RMSE_m": 182.80664621807085,
+      "mean_relative_error_percent": 50.18891018658435
+    }
+  ],
+  "methodology": {
+    "source": "Pixel_Perturbation_Distance_Errors.csv",
+    "total_records_per_camera": 42,
+    "pixel_perturbations": [
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "distance_levels_m": [
+      50,
+      100,
+      150,
+      200,
+      250,
+      300
+    ],
+    "mae": "Mean absolute error over valid estimates.",
+    "rmse": "Root mean squared signed distance error over valid estimates.",
+    "mean_relative_error": "Arithmetic mean of per-record absolute relative errors over valid estimates.",
+    "invalid_estimates": "Excluded from error metrics and counted separately."
+  },
+  "audit_findings": [
+    "The original saved summary did not match the raw per-record data.",
+    "The original distance-level summaries reported six valid cases at every RGB distance despite seven raw records.",
+    "For Thermal, original valid-case counts were also one lower than the raw valid counts at each distance.",
+    "The original summary metrics were inflated by an incorrect aggregation denominator.",
+    "All corrected aggregate and distance-level metrics were recomputed directly from the 84 raw perturbation records.",
+    "Stored per-record absolute errors were independently checked against recalculated values, with only floating-point precision differences."
+  ],
+  "interpretation_warning": "These are idealized simulated geometric sensitivity results. They do not establish real-world ranging accuracy, camera calibration, or field performance."
+}

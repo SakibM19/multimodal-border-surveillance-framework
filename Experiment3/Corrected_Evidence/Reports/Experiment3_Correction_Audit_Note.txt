@@ -1,0 +1,29 @@
+EXPERIMENT 3 — CORRECTION AND AUDIT NOTE
+
+The original summary metrics were superseded after independent
+recomputation from the raw per-record CSV.
+
+The raw data contains 42 perturbation records per camera:
+six distance levels and seven pixel perturbations (-3 through +3).
+
+The original distance-level summary reported six valid cases at each
+RGB distance despite seven valid raw records. Thermal counts were also
+one lower than the raw valid counts. The original aggregation therefore
+used an incorrect denominator.
+
+Corrected metrics were calculated directly from all valid raw records.
+Invalid estimates were excluded from MAE, RMSE, and mean relative error,
+but are explicitly counted.
+
+Corrected aggregate results:
+RGB: 42 valid / 42; MAE 49.549168 m; RMSE 89.194642 m;
+mean relative error 22.204410%.
+
+Thermal: 38 valid / 42; MAE 123.719864 m; RMSE 280.366782 m;
+mean relative error 62.496953%.
+
+The original technical report is retained only as superseded audit
+evidence. It must not be used as the source of paper metrics.
+
+All findings are idealized geometric sensitivity analysis, not
+real-world ranging validation.

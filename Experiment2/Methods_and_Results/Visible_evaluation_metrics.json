@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETED",
+  "modality": "Visible",
+  "model_repository_path": "Experiment2/Training/Visible/final/best.pt",
+  "test_split": "test",
+  "precision": 0.9684171496786674,
+  "recall": 0.9251189581768094,
+  "mAP50": 0.9550583747789758,
+  "mAP50_95": 0.546754374498995,
+  "per_class_mAP50_95": [
+    0.546754374498995
+  ],
+  "results_directory": "/kaggle/working/EXP2_TEST_EVALUATION/Visible",
+  "ultralytics_results": {
+    "metrics/precision(B)": 0.9684171496786674,
+    "metrics/recall(B)": 0.9251189581768094,
+    "metrics/mAP50(B)": 0.9550583747789758,
+    "metrics/mAP50-95(B)": 0.546754374498995,
+    "fitness": 0.546754374498995
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "experiment": "Experiment2_AntiUAV300",
+  "stage": "Independent test-set evaluation",
+  "repository": "SakibM19/border-surveillance-research-backups",
+  "evaluation_time_utc": "2026-11-24T00:41:35.722117+00:00",
+  "model": "YOLO11n",
+  "image_size": 640,
+  "split": "test",
+  "device": "Tesla T4",
+  "results": {
+    "Visible": {
+      "status": "COMPLETED",
+      "modality": "Visible",
+      "model_repository_path": "Experiment2/Training/Visible/final/best.pt",
+      "test_split": "test",
+      "precision": 0.9684171496786674,
+      "recall": 0.9251189581768094,
+      "mAP50": 0.9550583747789758,
+      "mAP50_95": 0.546754374498995,
+      "per_class_mAP50_95": [
+        0.546754374498995
+      ],
+      "results_directory": "/kaggle/working/EXP2_TEST_EVALUATION/Visible",
+      "ultralytics_results": {
+        "metrics/precision(B)": 0.9684171496786674,
+        "metrics/recall(B)": 0.9251189581768094,
+        "metrics/mAP50(B)": 0.9550583747789758,
+        "metrics/mAP50-95(B)": 0.546754374498995,
+        "fitness": 0.546754374498995
+      }
+    },
+    "Infrared": {
+      "status": "COMPLETED",
+      "modality": "Infrared",
+      "model_repository_path": "Experiment2/Training/Infrared/final/best.pt",
+      "test_split": "test",
+      "precision": 0.9715663555780861,
+      "recall": 0.8773282714438249,
+      "mAP50": 0.9115144219332441,
+      "mAP50_95": 0.476336583626041,
+      "per_class_mAP50_95": [
+        0.476336583626041
+      ],
+      "results_directory": "/kaggle/working/EXP2_TEST_EVALUATION/Infrared",
+      "ultralytics_results": {
+        "metrics/precision(B)": 0.9715663555780861,
+        "metrics/recall(B)": 0.8773282714438249,
+        "metrics/mAP50(B)": 0.9115144219332441,
+        "metrics/mAP50-95(B)": 0.476336583626041,
+        "fitness": 0.476336583626041
+      }
+    }
+  }
+}

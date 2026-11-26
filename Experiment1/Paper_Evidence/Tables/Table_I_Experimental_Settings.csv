@@ -1,0 +1,12 @@
+Parameter,Setting
+Model,YOLO11n
+Training epochs,20
+Batch size,16
+Input image size,640 × 640
+Random seed,0
+Deterministic training,Enabled
+Inference confidence,0.001 (prediction generation)
+Inference IoU,0.60 (NMS)
+Maximum detections/image,300
+Evaluation IoU,0.50
+Dataset split,"4,000 train / 500 validation / 3,463 test"

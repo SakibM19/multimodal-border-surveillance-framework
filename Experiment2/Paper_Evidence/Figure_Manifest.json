@@ -1,0 +1,51 @@
+[
+  {
+    "filename": "Experiment2_Visible_Training_Validation_Loss",
+    "description": "Visible training and validation loss across 50 epochs",
+    "png": "/kaggle/working/EXP2_PAPER_EVIDENCE/IEEE_300DPI/Experiment2_Visible_Training_Validation_Loss.png",
+    "pdf": "/kaggle/working/EXP2_PAPER_EVIDENCE/IEEE_300DPI/Experiment2_Visible_Training_Validation_Loss.pdf",
+    "png_dpi": 600
+  },
+  {
+    "filename": "Experiment2_Visible_Precision_Recall",
+    "description": "Visible precision and recall across training epochs",
+    "png": "/kaggle/working/EXP2_PAPER_EVIDENCE/IEEE_300DPI/Experiment2_Visible_Precision_Recall.png",
+    "pdf": "/kaggle/working/EXP2_PAPER_EVIDENCE/IEEE_300DPI/Experiment2_Visible_Precision_Recall.pdf",
+    "png_dpi": 600
+  },
+  {
+    "filename": "Experiment2_Visible_Validation_mAP",
+    "description": "Visible validation mAP across training epochs",
+    "png": "/kaggle/working/EXP2_PAPER_EVIDENCE/IEEE_300DPI/Experiment2_Visible_Validation_mAP.png",
+    "pdf": "/kaggle/working/EXP2_PAPER_EVIDENCE/IEEE_300DPI/Experiment2_Visible_Validation_mAP.pdf",
+    "png_dpi": 600
+  },
+  {
+    "filename": "Experiment2_Infrared_Training_Validation_Loss",
+    "description": "Infrared training and validation loss across 50 epochs",
+    "png": "/kaggle/working/EXP2_PAPER_EVIDENCE/IEEE_300DPI/Experiment2_Infrared_Training_Validation_Loss.png",
+    "pdf": "/kaggle/working/EXP2_PAPER_EVIDENCE/IEEE_300DPI/Experiment2_Infrared_Training_Validation_Loss.pdf",
+    "png_dpi": 600
+  },
+  {
+    "filename": "Experiment2_Infrared_Precision_Recall",
+    "description": "Infrared precision and recall across training epochs",
+    "png": "/kaggle/working/EXP2_PAPER_EVIDENCE/IEEE_300DPI/Experiment2_Infrared_Precision_Recall.png",
+    "pdf": "/kaggle/working/EXP2_PAPER_EVIDENCE/IEEE_300DPI/Experiment2_Infrared_Precision_Recall.pdf",
+    "png_dpi": 600
+  },
+  {
+    "filename": "Experiment2_Infrared_Validation_mAP",
+    "description": "Infrared validation mAP across training epochs",
+    "png": "/kaggle/working/EXP2_PAPER_EVIDENCE/IEEE_300DPI/Experiment2_Infrared_Validation_mAP.png",
+    "pdf": "/kaggle/working/EXP2_PAPER_EVIDENCE/IEEE_300DPI/Experiment2_Infrared_Validation_mAP.pdf",
+    "png_dpi": 600
+  },
+  {
+    "filename": "Experiment2_Visible_vs_Infrared_Test_Comparison",
+    "description": "Independent test-set comparison of Visible and Infrared models",
+    "png": "/kaggle/working/EXP2_PAPER_EVIDENCE/IEEE_300DPI/Experiment2_Visible_vs_Infrared_Test_Comparison.png",
+    "pdf": "/kaggle/working/EXP2_PAPER_EVIDENCE/IEEE_300DPI/Experiment2_Visible_vs_Infrared_Test_Comparison.pdf",
+    "png_dpi": 600
+  }
+]

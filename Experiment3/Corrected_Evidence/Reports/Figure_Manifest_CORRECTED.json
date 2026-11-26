@@ -1,0 +1,53 @@
+{
+  "figure_source": "Raw projection data and corrected raw-record summaries",
+  "figures": [
+    {
+      "filename": "Figure3_1_Projected_Width_CORRECTED.pdf",
+      "format": "pdf",
+      "bytes": 15436,
+      "sha256": "9d3178a483741e41b1a0da86e1911d3933d07aaa9dd885c6ab65659f04759a63"
+    },
+    {
+      "filename": "Figure3_1_Projected_Width_CORRECTED.png",
+      "format": "png",
+      "bytes": 274361,
+      "sha256": "80908c45b0029a52041dc3709dc9abe86e02d5fbab0152f18129ab502eeb436f"
+    },
+    {
+      "filename": "Figure3_2_Distance_Error_CORRECTED.pdf",
+      "format": "pdf",
+      "bytes": 15357,
+      "sha256": "8cf4f160a25e30fa1e7fd9a5fd1dd16fdd63ab033c64f77288bc3cf24432d897"
+    },
+    {
+      "filename": "Figure3_2_Distance_Error_CORRECTED.png",
+      "format": "png",
+      "bytes": 291694,
+      "sha256": "f92be2d981fe6516ce0c8f3b8afea1c3663550e244555c59f6783e2f43696205"
+    },
+    {
+      "filename": "Figure3_3_Relative_Error_CORRECTED.pdf",
+      "format": "pdf",
+      "bytes": 16691,
+      "sha256": "f6d4a4cc469915af460d6fe8cb9d43f8bff8dacb4999f8b6d71abc97732ea357"
+    },
+    {
+      "filename": "Figure3_3_Relative_Error_CORRECTED.png",
+      "format": "png",
+      "bytes": 292198,
+      "sha256": "22af467c4bb60ad6aacdbc715f3362a8e9ce397305efed9abd53675cf9068127"
+    },
+    {
+      "filename": "Figure3_4_Pixel_Sensitivity_CORRECTED.pdf",
+      "format": "pdf",
+      "bytes": 15226,
+      "sha256": "a2f35d031ad539143fa0236a9dcee56a426f83ed827a3a8c022b6171b528f2a9"
+    },
+    {
+      "filename": "Figure3_4_Pixel_Sensitivity_CORRECTED.png",
+      "format": "png",
+      "bytes": 311213,
+      "sha256": "fd98bf7ea4425ce57fc6c063b47ef178777309222c75b04a1b7f07d27923fb95"
+    }
+  ]
+}

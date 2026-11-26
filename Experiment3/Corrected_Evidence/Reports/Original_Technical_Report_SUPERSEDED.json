@@ -1,0 +1,39 @@
+{
+    "experiment": "Experiment3_Range_to_Pixel_and_Distance_Error",
+    "generated_utc": "2026-11-24T01:16:19.000174+00:00",
+    "python_version": "3.13.18",
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "camera_geometry": {
+        "RGB": {
+            "fx_pixels": 5444.430546833001,
+            "horizontal_fov_deg": 20.0,
+            "image_width_px": 1920,
+            "image_height_px": 1080
+        },
+        "Thermal": {
+            "fx_pixels": 2020.400484696014,
+            "horizontal_fov_deg": 18.0,
+            "image_width_px": 640,
+            "image_height_px": 512
+        }
+    },
+    "overall_error_summary": [
+        {
+            "camera": "RGB",
+            "valid_perturbed_estimates": 36,
+            "invalid_perturbed_estimates": 0,
+            "MAE_m": 57.80736293437181,
+            "RMSE_m": 96.34122462278448,
+            "mean_relative_error_percent": 25.90514488582529
+        },
+        {
+            "camera": "Thermal",
+            "valid_perturbed_estimates": 32,
+            "invalid_perturbed_estimates": 4,
+            "MAE_m": 146.91733829267403,
+            "RMSE_m": 305.52261746821466,
+            "mean_relative_error_percent": 74.21513143862197
+        }
+    ],
+    "interpretation_warning": "These are idealized simulated geometric sensitivity results. They do not establish real-world ranging accuracy."
+}

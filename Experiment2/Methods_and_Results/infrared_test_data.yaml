@@ -1,0 +1,7 @@
+path: /kaggle/working/EXP2_RESTORED/AntiUAV_Experiment2/datasets/infrared
+train: images/train
+val: images/val
+test: images/test
+nc: 1
+names:
+  0: drone
